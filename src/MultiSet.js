@@ -5,19 +5,19 @@
  * assuming the implementation of the underlying JavaScript engine manages in
  * amortizing insertion and removal of properties in objects to constant time.
  *
- * The arguments you specify to the MultiSet constructor are immediately
+ * The arguments you specify to the `MultiSet` constructor are immediately
  * inserted into the container. For example:
  *
- *	var ms = new Canvace.MultiSet(1, 2, 3); // ms contains 1, 2 and 3
+ *	var ms = new MultiSet(1, 2, 3); // ms contains 1, 2 and 3
  *
  * The previous snippet is equivalent to:
  *
- *	var ms = new Canvace.MultiSet();
+ *	var ms = new MultiSet();
  *	ms.add(1);
  *	ms.add(2);
  *	ms.add(3);
  *
- * @class Canvace.MultiSet
+ * @class MultiSet
  * @constructor
  * @param [elements]* {Object} The elements to add initially to the `MultiSet`.
  */
@@ -58,7 +58,7 @@ global.MultiSet = function () {
 	 *
 	 * Example:
 	 *
-	 *	var ms = new Canvace.MultiSet(1, 2);
+	 *	var ms = new MultiSet(1, 2);
 	 *	var remove = ms.add(3); // ms now contains three elements: 1, 2 and 3
 	 *	remove(); // ms now contains two elements: 1 and 2
 	 *	remove(); // no effect, ms still contains 1 and 2
@@ -70,7 +70,7 @@ global.MultiSet = function () {
 	 *
 	 * Example:
 	 *
-	 *	var ms = new Canvace.MultiSet();
+	 *	var ms = new MultiSet();
 	 *	var remove = ms.add(3);
 	 *	if (remove()) {
 	 *		alert('removed!');
@@ -97,7 +97,7 @@ global.MultiSet = function () {
 	 * The following example inserts some numbers into the container and then
 	 * removes only the numbers equal to 3:
 	 *
-	 *	var ms = new Canvace.MultiSet(1, 3, 7, 6, 3, 4, 3, 3, 5);
+	 *	var ms = new MultiSet(1, 3, 7, 6, 3, 4, 3, 3, 5);
 	 *	ms.forEach(function (element, remove) {
 	 *		if (element === 3) {
 	 *			remove();
@@ -119,7 +119,7 @@ global.MultiSet = function () {
 	 * The following example adds some numbers to the container, then iterates
 	 * over it and interrupts when it encounters the number 3:
 	 *
-	 *	var ms = new Canvace.MultiSet(1, 2, 3, 4);
+	 *	var ms = new MultiSet(1, 2, 3, 4);
 	 *	ms.forEach(function (element) {
 	 *		if (element === 3) {
 	 *			return false;
@@ -207,7 +207,7 @@ global.MultiSet = function () {
 	 * @method count
 	 * @return {Number} The number of contained elements.
 	 * @example
-	 *	var ms = new Canvace.MultiSet(1, 2, 2, 3, 3);
+	 *	var ms = new MultiSet(1, 2, 2, 3, 3);
 	 *	alert(ms.count()); // alerts 5
 	 */
 	this.count = function () {
@@ -232,7 +232,7 @@ global.MultiSet = function () {
 	 *
 	 * @method clear
 	 * @example
-	 *	var ms = new Canvace.MultiSet(1, 2, 3, 4, 5);
+	 *	var ms = new MultiSet(1, 2, 3, 4, 5);
 	 *	ms.clear();
 	 *	alert(ms.count()); // alerts 0
 	 */
