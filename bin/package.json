@@ -1,8 +1,8 @@
 {
 	"name": "multiset",
-	"version": "1.0",
+	"version": "1.0.0",
 	"description": "The MultiSet collection class implements a simple multi-set, a set with possibly repeated elements.",
-	"keywords": ["collection", "utility", "set", "multiset", "array"],
+	"keywords": ["collection", "utility", "set", "multiset", "array", "algorithm"],
 	"homepage": "https://github.com/71104/multiset",
 	"bugs": {
 		"url": "https://github.com/71104/multiset/issues",

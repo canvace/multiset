@@ -22,7 +22,7 @@
  * @constructor
  * @param [elements]* {Object} The elements to add initially to the `MultiSet`.
  */
-module.exports.MultiSet = function () {
+module.exports = function () {
 	var elements = {};
 	var nextId = 0;
 	var count = 0;
