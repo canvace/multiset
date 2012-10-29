@@ -8,6 +8,7 @@
  * The arguments you specify to the `MultiSet` constructor are immediately
  * inserted into the container. For example:
  *
+ *	var MultiSet = require('multiset');
  *	var ms = new MultiSet(1, 2, 3); // ms contains 1, 2 and 3
  *
  * The previous snippet is equivalent to:
@@ -21,7 +22,7 @@
  * @constructor
  * @param [elements]* {Object} The elements to add initially to the `MultiSet`.
  */
-global.MultiSet = function () {
+module.exports.MultiSet = function () {
 	var elements = {};
 	var nextId = 0;
 	var count = 0;
