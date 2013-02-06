@@ -12,7 +12,7 @@ module.exports = function (grunt) {
 					'<banner:meta.banner>',
 					'<file_strip_banner:src/MultiSet.js>'
 				],
-				dest: 'bin/multiset-<%= meta.version %>.min.js'
+				dest: 'bin/multiset.js'
 			}
 		},
 		lint: {
