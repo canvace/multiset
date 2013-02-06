@@ -1,0 +1,16 @@
+{
+	"name": "multiset",
+	"version": "1.0.0",
+	"description": "The MultiSet collection class implements a simple multi-set, a set with possibly repeated elements.",
+	"keywords": ["collection", "utility", "set", "multiset", "array", "algorithm"],
+	"homepage": "https://github.com/canvace/multiset",
+	"bugs": {
+		"url": "https://github.com/canvace/multiset/issues",
+		"email": "alberto.larocca@canvace.com"
+	},
+	"main": "multiset",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/canvace/multiset.git"
+	}
+}
