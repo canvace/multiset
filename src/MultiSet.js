@@ -23,6 +23,8 @@
  * @param [elements]* {Object} The elements to add initially to the `MultiSet`.
  */
 module.exports = function () {
+	'use strict';
+
 	var elements = {};
 	var nextId = 0;
 	var count = 0;
