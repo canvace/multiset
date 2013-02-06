@@ -15,6 +15,9 @@ module.exports = function (grunt) {
 				dest: 'bin/multiset-<%= meta.version %>.min.js'
 			}
 		},
+		lint: {
+			dist: 'src/MultiSet.js'
+		},
 		jshint: {
 			options: {
 				camelcase: true,
@@ -36,7 +39,7 @@ module.exports = function (grunt) {
 				multistr: true,
 				smarttabs: true,
 				supernew: true,
-				browser: true
+				node: true
 			},
 			globals: {
 				Canvace: false
