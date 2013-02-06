@@ -3,7 +3,7 @@ module.exports = function (grunt) {
 		meta: {
 			version: '1.0.0',
 			banner: '/*! MultiSet.js - v<%= meta.version %> - <%= grunt.template.today("yyyy-mm-dd") %>\n' +
-				'* Part of the Canvace technology, http://www.canvace.com/\n' +
+				'* Part of the Canvace technology <http://www.canvace.com/>\n' +
 				'* Copyright (c) <%= grunt.template.today("yyyy") %> Canvace Srl */',
 		},
 		min: {
