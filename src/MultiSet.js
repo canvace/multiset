@@ -55,9 +55,9 @@ function MultiSet() {
  * element can be of any type (numbers, strings, objects, etc.) and can be
  * inserted many times.
  *
- * The {{#crossLink "MultiSet/add}}{{/crossLink}} method returns a function that
- * removes the element. The returned function is idempotent: it does not have
- * any effect when called again after the first time.
+ * The {{#crossLink "MultiSet/add"}}{{/crossLink}} method returns a function
+ * that removes the element. The returned function is idempotent: it does not
+ * have any effect when called again after the first time.
  *
  * Example:
  *
