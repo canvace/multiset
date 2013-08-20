@@ -360,9 +360,9 @@ ms.add(3);</code></pre>
         <p>Inserts an element into the container in amortized constant time. The
 element can be of any type (numbers, strings, objects, etc.) and can be
 inserted many times.</p>
-<p>The {{#crossLink "MultiSet/add}}{{/crossLink}} method returns a function that
-removes the element. The returned function is idempotent: it does not have
-any effect when called again after the first time.</p>
+<p>The <a href="..\classes\MultiSet.html#method_add" class="crosslink">add</a> method returns a function
+that removes the element. The returned function is idempotent: it does not
+have any effect when called again after the first time.</p>
 <p>Example:</p>
 <pre class="code prettyprint"><code>var ms = new MultiSet(1, 2);
 var remove = ms.add(3); // ms now contains three elements: 1, 2 and 3
