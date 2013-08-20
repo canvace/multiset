@@ -1,0 +1,31 @@
+{
+	"name": "multiset",
+	"version": "1.1.0",
+	"description": "An utility class that implements a multiset, a set with possibly repeated elements.",
+	"keywords": [
+		"multiset",
+		"utility",
+		"set",
+		"array",
+		"list"
+	],
+	"homepage": "https://github.com/canvace/multiset",
+	"bugs": "https://github.com/canvace/multiset/issues",
+	"license": "MIT",
+	"author": "Alberto La Rocca <alberto.larocca@canvace.com> (https://github.com/71104)",
+	"files": [
+		"bin/node-multiset.js"
+	],
+	"main": "bin/node-multiset.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/canvace/multiset.git"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-clean": "~0.5.0",
+		"grunt-contrib-jshint": "~0.6.2",
+		"grunt-contrib-uglify": "~0.2.2",
+		"grunt-contrib-yuidoc": "~0.4.0"
+	}
+}
